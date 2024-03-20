@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
     cout << "PROBLEM 1\n";
-    int x=0;
-    cin>>x;
-    if (x<0){
+    int x1=0;
+    cin>>x1;
+    if (x1<0){
         cout<<"Negative";
     } else{
         cout<<"Positive";
@@ -15,15 +15,15 @@ int main(){
 
     cout << "PROBLEM 2\n";
 
-    int x=0;
+    int x2=0;
     int rem=0;
     cin>>x;
-    rem=x%2;
-    if (x>0 && rem==0){
+    rem=x2%2;
+    if (x2>0 && rem==0){
         cout<<"The number is positive and even";
-    } else if(x>0&&rem!=0){
+    } else if(x2>0&&rem!=0){
         cout<<"The number is positive and odd";
-    } else if(x<0&&rem==0){
+    } else if(x2<0&&rem==0){
         cout <<"The number is negative and even";
     }
     else{
