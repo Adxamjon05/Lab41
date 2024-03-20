@@ -243,7 +243,46 @@ int main(){
     cout<<"Today is "<<todday<<" and the future day is "<<futday<<endl;
     
     cout << "PROBLEM 15\n";
+
+    int grade15=0;
+    cin>>grade15;
+    switch (grade15){
+        case 0 ... 59:
+            cout<<"F"<<endl;
+            break;
+        case 60 ... 69:
+            cout<<"D"<<endl;
+            break;
+        case 70 ... 79:
+            cout<<"C"<<endl;
+            break;
+        case 80 ... 89:
+            cout<<"B"<<endl;
+            break;
+        case 90 ... 100:
+            cout<<"A"<<endl;
+            break;
+    };
+    
     cout << "PROBLEM 16\n";
+
+    int number16=0;
+    cin>>number16;
+
+    switch(number16){
+        case 0:
+            cout<<"It is zero"<<endl;
+            break;
+        default:
+            if (number16>0){
+                cout<<"Positive"<<endl;
+            }else{
+                cout<<"Negative"<<endl;
+            };
+
+
+    };
+    
     cout << "PROBLEM 17\n";
     cout << "PROBLEM 18\n";
     cout << "PROBLEM 19\n";
