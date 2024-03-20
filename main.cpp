@@ -387,8 +387,10 @@ int main(){
             break;
         case 12:
             cout<<"In December there is: \n-Constitution Day, 8 December"<<endl;
+            break;
+        default:
+            cout<<"You entered the wrong month.";
     };
-
     cout << "PROBLEM 21\n";
     cout << "PROBLEM 22\n";
     return 0;
