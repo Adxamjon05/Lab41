@@ -151,7 +151,34 @@ int main(){
 
     
     cout << "PROBLEM 12\n";
+
+    cout<<"Enter a three-digit integer:";
+    int number12=0;
+    cin>>number12;
+    int a=0;
+    a=number12%10*100+(number12%100-number12%10)+int(number12/100);
+    if (number12==a){
+        cout<<number12<<" is a palindrome"<<endl;
+    }else{
+        cout<<number12<<" is not a palindrome"<<endl;
+    };
+    
     cout << "PROBLEM 13\n";
+
+    char command13='A';
+    cin>>command13;
+    switch(command13){
+        case 'g':
+            cout<<"Go!"<<endl;
+            break;
+        case 'y':
+            cout<<"Get ready!"<<endl;
+            break;
+        case 'r':
+            cout<<"Stop"<<endl;
+
+    };
+    
     cout << "PROBLEM 14\n";
     cout << "PROBLEM 15\n";
     cout << "PROBLEM 16\n";
