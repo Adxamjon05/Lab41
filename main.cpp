@@ -414,15 +414,13 @@ int main(){
     cout << "PROBLEM 21\n";
 
     int number21=rand();
-    string guess=" ";
-    cin>>guess;
-    int res=number21%2;
-    if (res==1 && guess=="Odd"){
-        cout<<"You are correct!"<<endl;
-    } else if (res==0 && guess=="Even"){
-        cout<<"You are correct!"<<endl;
+    int res = number21%2;
+    int prompt=0;
+    cin>>prompt;
+    if (prompt==res){
+        cout<<"You are correct!!!"<<endl;
     } else{
-        cout<<"You are incorrect"<<endl;
+        cout<<"You are incorrect!!!"<<endl;
     };
 
     
