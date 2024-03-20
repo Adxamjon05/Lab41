@@ -301,6 +301,44 @@ int main(){
     
     cout << "PROBLEM 18\n";
 
+    int w=0;
+    cin>>w;
+
+    switch(w){
+        case 0 ... 1:
+            cout<<"3500"<<endl;
+            break;
+        case 2 ... 3:
+            cout<<"5500"<<endl;
+            break;
+        case 4 ... 10:
+            cout<<"8500"<<endl;
+            break;
+        case 11 ... 20:
+            cout<<"10500"<<endl;
+            break;
+        default:
+            if (w<=0){
+                cout<<"Invalid input"<<endl;
+            }else{
+                cout<<"The package cannot be shipped"<<endl;
+            };
+    };
+
+    if (w>0 && w<=1){
+        cout<<"3500"<<endl;
+    }else if (w>1 && w<=3){
+        cout<<"5500"<<endl;
+    } else if(w>3 && w<=10){
+        cout<<"8500"<<endl;
+    }else if(w>10 && w<=20){
+        cout<<"10500"<<endl;
+    }else if (w<0){
+        cout<<"Invalid input"<<endl;
+    }else{
+        cout<<"The package cannot be shipped"<<endl;
+    };
+
     
     cout << "PROBLEM 19\n";
 
