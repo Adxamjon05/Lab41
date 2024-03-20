@@ -348,6 +348,47 @@ int main(){
     };
     
     cout << "PROBLEM 20\n";
+
+    int month=0;
+    cin>>month;
+    switch(month){
+        case 1:
+            cout<<"In January there is:\n -Defenders of the Motherland Day, 14 January"<<endl;
+            break;
+        case 2:
+            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            break;
+        case 3:
+            cout<<"In March there is: \n-International Women's Day, 8 March \n-Navruz, 21 March"<<endl;
+            break;
+        case 4:
+            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            break;
+        case 5:
+            cout<<"In May there is: \n-Memorial Day, 9 May"<<endl;
+            break;
+        case 6:
+            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            break;
+        case 7:
+            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            break;
+        case 8:
+            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            break;
+        case 9:
+            cout<<"In September there is: \n-Independence Day, 1 September"<<endl;
+            break;
+        case 10:
+            cout<<"In October there is: \n-Teachers' Day, 1 October"<<endl;
+            break;
+        case 11:
+            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            break;
+        case 12:
+            cout<<"In December there is: \n-Constitution Day, 8 December"<<endl;
+    };
+
     cout << "PROBLEM 21\n";
     cout << "PROBLEM 22\n";
     return 0;
