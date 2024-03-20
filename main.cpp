@@ -76,8 +76,8 @@ int main(){
     double root61=0;
     double root62=0;
     cin>>a6>>b6>>c6;
-    root61= (-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
-    root62= (-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
+    root61= (-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
+    root62= (-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
     cout<<"x1="<<root61<<endl;
     cout<<"x2="<<root62<<endl;
 
