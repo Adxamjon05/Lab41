@@ -45,13 +45,13 @@ int main(){
     
     cout << "PROBLEM 4\n";
 
-    int num1=0;
-    int num2=0;
-    cin>>num1>>num2;
-    if (num1%num2==0){
-        cout<<num1<<" is divisible by "<<num2<<endl;
+    int num41=0;
+    int num42=0;
+    cin>>num41>>num42;
+    if (num41%num42==0){
+        cout<<num41<<" is divisible by "<<num42<<endl;
     }else{
-        cout<<num1<<" is not divisible by "<<num2<<endl;
+        cout<<num41<<" is not divisible by "<<num42<<endl;
     };
     
     cout << "PROBLEM 5\n";
