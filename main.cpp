@@ -180,6 +180,68 @@ int main(){
     };
     
     cout << "PROBLEM 14\n";
+
+    int today=0;
+    int future=0;
+    string todday="Monday";
+    string futday="Monday";
+    cout<<"Enter today's day:";
+    cin>>today;
+    cout<<"Enter the number of days elapsed since today:";
+    cin>>future;
+    future=today+future;
+    switch(today%7){
+        case 1:
+            todday="Monday";
+            break;
+        case 2:
+            todday="Tuesday";
+            break;
+        case 3:
+            todday="Wednesday";
+            break;
+        case 4:
+            todday="Thursday";
+            break;
+        case 5:
+            todday="Friday";
+            break;
+        case 6:
+            todday = "Saturday";
+            break;
+        case 0:
+            todday="Sunday";
+            break;
+
+
+    };
+    switch(future%7){
+        case 1:
+            futday="Monday";
+            break;
+        case 2:
+            futday="Tuesday";
+            break;
+        case 3:
+            futday="Wednesday";
+            break;
+        case 4:
+            futday="Thursday";
+            break;
+        case 5:
+            futday="Friday";
+            break;
+        case 6:
+            futday = "Saturday";
+            break;
+        case 0:
+            futday="Sunday";
+            break;
+
+
+    };
+    cout<<"Today is "<<todday<<" and the future day is "<<futday<<endl;
+    
     cout << "PROBLEM 15\n";
     cout << "PROBLEM 16\n";
     cout << "PROBLEM 17\n";
