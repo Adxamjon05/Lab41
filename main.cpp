@@ -383,7 +383,7 @@ int main(){
 
     int month=0;
     cin>>month;
-    switch(month){
+    switch(month%12){
         case 1:
             cout<<"In January there is:\n -Defenders of the Motherland Day, 14 January"<<endl;
             break;
@@ -417,7 +417,7 @@ int main(){
         case 11:
             cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
             break;
-        case 12:
+        case 0:
             cout<<"In December there is: \n-Constitution Day, 8 December"<<endl;
             break;
         default:
