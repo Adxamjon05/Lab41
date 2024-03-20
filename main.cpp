@@ -167,6 +167,9 @@ int main(){
             break;
         case 'r':
             cout<<"Stop"<<endl;
+            break;
+        default:
+            cout<<"Wrong command"<<endl;
 
     };
     
