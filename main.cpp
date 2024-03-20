@@ -399,7 +399,7 @@ int main(){
     int res=number21%2;
     if (res==1 && guess=="Odd"){
         cout<<"You are correct!"<<endl;
-    } else if (res==2 && guess=="Even"){
+    } else if (res==0 && guess=="Even"){
         cout<<"You are correct!"<<endl;
     } else{
         cout<<"You are incorrect"<<endl;
@@ -407,6 +407,9 @@ int main(){
 
     
     cout << "PROBLEM 22\n";
+
+    
+    
     return 0;
     
     
