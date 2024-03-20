@@ -84,6 +84,18 @@ int main(){
 
     
     cout << "PROBLEM 7\n";
+
+    double side1=0;
+    double side2=0;
+    double side3=0;
+    cin>>side1>>side2>>side3;
+    if (side1<side2+side3 && (side1>side2-side3 && side1>side3-side2)){
+        cout<<"The triangle is valid"<<endl;
+    }else{
+        cout<<"The triangle is not valid"<<endl;
+    };
+
+    
     cout << "PROBLEM 8\n";
     cout << "PROBLEM 9\n";
     cout << "PROBLEM 10\n";
