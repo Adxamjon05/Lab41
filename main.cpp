@@ -11,13 +11,13 @@ int main(){
     } else{
         cout<<"Positive";
     };
-    return 0;
+   
 
     cout << "PROBLEM 2\n";
 
     int x2=0;
     int rem=0;
-    cin>>x;
+    cin>>x2;
     rem=x2%2;
     if (x2>0 && rem==0){
         cout<<"The number is positive and even";
@@ -50,6 +50,7 @@ int main(){
     cout << "PROBLEM 20\n";
     cout << "PROBLEM 21\n";
     cout << "PROBLEM 22\n";
+    return 0;
     
     
         
