@@ -309,6 +309,44 @@ int main(){
 
     
     cout << "PROBLEM 19\n";
+
+    int digit=0;
+    cin>>digit;
+    switch(digit){
+        case 0:
+            cout<<"Zero"<<endl;
+            break;
+        case 1:
+            cout<<"One"<<endl;
+            break;
+        case 2:
+            cout<<"Two"<<endl;
+            break;
+        case 3:
+            cout<<"Three"<<endl;
+            break;
+        case 4:
+            cout<<"Four"<<endl;
+            break;
+        case 5:
+            cout<<"Five"<<endl;
+            break;
+        case 6:
+            cout<<"Six"<<endl;
+            break;
+        case 7:
+            cout<<"Seven"<<endl;
+            break;
+        case 8:
+            cout<<"Eight"<<endl;
+            break;
+        case 9:
+            cout<<"Nine"<<endl;
+            break;
+        default:
+            cout<<"It is not a digit"<<endl;
+    };
+    
     cout << "PROBLEM 20\n";
     cout << "PROBLEM 21\n";
     cout << "PROBLEM 22\n";
