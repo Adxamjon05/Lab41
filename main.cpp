@@ -394,14 +394,17 @@ int main(){
     cout << "PROBLEM 21\n";
 
     int number21=rand();
-    int guess=0;
+    string guess=" ";
     cin>>guess;
     int res=number21%2;
-    if (res==guess){
+    if (res==1 && guess=="Odd"){
+        cout<<"You are correct!"<<endl;
+    } else if (res==2 && guess=="Even"){
         cout<<"You are correct!"<<endl;
     } else{
-        cout<<"You guessed wrong!!!"<<endl;
+        cout<<"You are incorrect"<<endl;
     };
+
     
     cout << "PROBLEM 22\n";
     return 0;
