@@ -55,7 +55,34 @@ int main(){
     };
     
     cout << "PROBLEM 5\n";
+
+    int year5=0;
+    cin>>year5;
+    if (year5%4==0){
+        if (year5%100==0 && year5%400==0){
+            cout<<year5<<" is a leap year"<<endl;
+        }else{
+            cout<<year5<<" is not a leap year"<<endl;
+        };
+    }else{
+        cout<<year5<<" is not a leap year"<<endl;
+    };
+    
     cout << "PROBLEM 6\n";
+
+    double a6=0;
+    double b6=0;
+    double c6=0;
+    double root61=0;
+    double root62=0;
+    cin>>a6>>b6>>c6;
+    root61= (-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
+    root62= (-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
+    cout<<"x1="<<root61<<endl;
+    cout<<"x2="<<root62<<endl;
+
+
+    
     cout << "PROBLEM 7\n";
     cout << "PROBLEM 8\n";
     cout << "PROBLEM 9\n";
