@@ -70,16 +70,16 @@ int main(){
     
     cout << "PROBLEM 6\n";
 
-    float a6=0;
-    float b6=0;
-    float c6=0;
-    float root61=0;
-    float root62=0;
-    cin>>a6>>b6>>c6;
-    root61= (-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
-    root62= (-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
-    cout<<"x1="<<root61<<endl;
-    cout<<"x2="<<root62<<endl;
+    double a=0;
+    double b=0;
+    double c=0;
+    cin>>a>>b>>c;
+    double x1=0;
+    double x2=0;
+    x1=(-b+sqrt(pow(b,2)-4*a*c))/(2*a);
+    x2=(-b-sqrt(pow(b,2)-4*a*c))/(2*a);
+    cout<<"x1="<<x1<<endl;
+    cout<<"x2="<<x2<<endl;
 
 
     
