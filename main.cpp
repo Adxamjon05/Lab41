@@ -284,7 +284,51 @@ int main(){
     };
     
     cout << "PROBLEM 17\n";
+
+    char language='o';
+    cin>>language;
+    switch (language){
+        case 'u':
+            cout<<"Assalomu alaykum"<<endl;
+            break;
+        case 'e':
+            cout<<"Hello"<<endl;
+            break;
+        case 'r':
+            cout<<"Здравствуйте"<<endl;
+            break;
+        case 'g':
+            cout<<"Hallo"<<endl;
+            break;
+        default:
+            cout<<"I do not know this language:("<<endl;
+
+    };
+    
     cout << "PROBLEM 18\n";
+
+    int weight=0;
+    cin>>weight;
+    switch(weight){
+        case 0 ... 1:
+            cout<<3500<<endl;
+            break;
+        case  2 ... 3:
+            cout<<5500<<endl;
+            break;
+        case 4 ... 10:
+            cout<<8500<<endl;
+            break;
+        case 11 ... 20:
+            cout<<10500<<endl;
+            break;
+        default:
+            if (weight<=0){
+                cout<<"Invalid input"<<endl;
+            }else{
+                cout<<"The package cannot be shipped"<<endl;
+            };
+    
     cout << "PROBLEM 19\n";
     cout << "PROBLEM 20\n";
     cout << "PROBLEM 21\n";
