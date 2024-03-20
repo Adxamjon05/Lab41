@@ -392,6 +392,19 @@ int main(){
             cout<<"You entered the wrong month.";
     };
     cout << "PROBLEM 21\n";
+
+    int number21=rand();
+    int guess=0;
+    cin>>guess;
+    int res=number21%2;
+    if (res==guess){
+        cout<<"You are correct!"<<endl;
+    } else{
+        cout<<"You guessed wrong!!!"<<endl;
+    };
+
+    return 0;
+    
     cout << "PROBLEM 22\n";
     return 0;
     
