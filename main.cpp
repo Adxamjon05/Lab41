@@ -70,16 +70,7 @@ int main(){
     
     cout << "PROBLEM 6\n";
 
-    double a6=0;
-    double b6=0;
-    double c6=0;
-    cin>>a6>>b6>>c6;
-    double x1=0;
-    double x2=0;
-    x1=(-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
-    x2=(-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
-    cout<<"x1="<<x1<<endl;
-    cout<<"x2="<<x2<<endl;
+    
 
 
     
