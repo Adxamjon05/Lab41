@@ -70,14 +70,14 @@ int main(){
     
     cout << "PROBLEM 6\n";
 
-    double a6=0;
-    double b6=0;
-    double c6=0;
-    double root61=0;
-    double root62=0;
+    float a6=0;
+    float b6=0;
+    float c6=0;
+    float root61=0;
+    float root62=0;
     cin>>a6>>b6>>c6;
-    root61= (-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
-    root62= (-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
+    root61= (-b6+sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
+    root62= (-b6-sqrt(pow(b6,2)-4*a6*c6))/(2*a6);
     cout<<"x1="<<root61<<endl;
     cout<<"x2="<<root62<<endl;
 
