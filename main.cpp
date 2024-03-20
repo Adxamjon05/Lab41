@@ -429,15 +429,15 @@ int main(){
     srand(time(nullptr));
 
     // Arrays to hold the ranks and suits
-    std::string ranks[] = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
-    std::string suits[] = {"Clubs", "Diamonds", "Hearts", "Spades"};
+    string ranks[] = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
+    string suits[] = {"Clubs", "Diamonds", "Hearts", "Spades"};
 
     // Generate a random rank and suit
     int rankIndex = getRandomNumber(0, 12); // 0-12 for ranks
     int suitIndex = getRandomNumber(0, 3);  // 0-3 for suits
 
     // Display the picked card
-    std::cout << "The picked card is: " << ranks[rankIndex] << " of " << suits[suitIndex] << std::endl;
+    cout << "The picked card is: " << ranks[rankIndex] << " of " << suits[suitIndex] << endl;
 
     
     return 0;
