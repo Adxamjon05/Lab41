@@ -97,9 +97,59 @@ int main(){
 
     
     cout << "PROBLEM 8\n";
+
+    char char8='A';
+    cin>>char8;
+    if (int(char8)>64 && int(char8)<91){
+        cout<<"Uppercase alphabet"<<endl;
+    } else if (int(char8)>96 && int(char8)<123){
+        cout<<"Lowercase alphabet"<<endl;
+    } else{
+        cout<<"It is not an alphabet"<<endl;
+    };
+
     cout << "PROBLEM 9\n";
+
+    double speed9=0;
+    cin>>speed9;
+    if (speed9<20){
+        cout<<"too slow"<<endl;
+    }else if (speed9>80){
+        cout<<"too fast"<<endl;
+    } else{
+        cout<<"just right"<<endl;
+    };
+    
     cout << "PROBLEM 10\n";
+
+    double x10=0;
+    double y10=0;
+    cin>>x10>>y10;
+    if (sqrt(pow(x10,2)+pow(y10,2))<=10){
+        cout<<"Point ("<<x10<<","<<y10<<") is in circle"<<endl;
+    } else{
+        cout<<"Point ("<<x10<<","<<y10<<") is not in circle"<<endl;
+    };
+    
     cout << "PROBLEM 11\n";
+
+    double weight1=0;
+    double price1=0;
+    double weight2=0;
+    double price2=0;
+    cout<<"Enter the weight and price for package 1:";
+    cin>>weight1>>price1;
+    cout<<"Enter the weight and price for package 2:";
+    cin>>weight2>>price2;
+    if (price1/weight1<price2/weight2){
+        cout<<"Package 1 has a better price"<<endl;
+    }else if (price1/weight1>price2/weight2){
+        cout<<"Package 2 has a better price"<<endl;
+    }else{
+        cout<<"Two packages have the same price"<<endl;
+    };
+
+    
     cout << "PROBLEM 12\n";
     cout << "PROBLEM 13\n";
     cout << "PROBLEM 14\n";
