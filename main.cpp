@@ -378,6 +378,22 @@ int main(){
     
     cout << "PROBLEM 20\n";
 
+    
+    
+    cout << "PROBLEM 21\n";
+
+    int number21=rand();
+    int res = number21%2;
+    int prompt=0;
+    cin>>prompt;
+    if (prompt==res){
+        cout<<"You are correct!!!"<<endl;
+    } else{
+        cout<<"You are incorrect!!!"<<endl;
+    };
+
+    
+    cout << "PROBLEM 22\n";
     int month=0;
     cin>>month;
     switch(month){
@@ -434,21 +450,6 @@ int main(){
             cout << "Invalid month number.\n";
     };
 
-    
-    cout << "PROBLEM 21\n";
-
-    int number21=rand();
-    int res = number21%2;
-    int prompt=0;
-    cin>>prompt;
-    if (prompt==res){
-        cout<<"You are correct!!!"<<endl;
-    } else{
-        cout<<"You are incorrect!!!"<<endl;
-    };
-
-    
-    cout << "PROBLEM 22\n";
 
     return 0;
     
