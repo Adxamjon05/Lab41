@@ -394,62 +394,7 @@ int main(){
 
     
     cout << "PROBLEM 22\n";
-    int month=0;
-    cin>>month;
-    switch(month){
-        case 1:
-            cout << "In January there is:\n";
-            cout << "- New Year's Day, 1 January\n";
-            break;
-        case 2:
-            cout << "In February, April, June, July, August, November there are no holidays.\n";
-            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n"
-            break;
-        case 3:
-            cout << "In March there is:\n";
-            cout << "- International Women's Day, 8 March\n";
-            cout << "- Navruz, 21 March\n";
-            break;
-        case 4:
-            cout << "In April, June, July, August, November there are no holidays.\n";
-            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
-            break;
-        case 5:
-            cout << "In May there is:\n";
-            cout << "- Remembrance Day, 9 May\n";
-            break;
-        case 6:
-            cout << "In June, July, August, November there are no holidays.\n";
-            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
-            break;
-        case 7:
-            cout << "In July, August, November there are no holidays.\n";
-            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
-            break;
-        case 8:
-            cout << "In August, November there are no holidays.\n";
-            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
-            break;
-        case 9:
-            cout << "In September there is:\n";
-            cout << "- Independence Day, 1 September\n";
-            break;
-        case 10:
-            cout << "In October there is:\n";
-            cout << "- Teachers' Day, 1 October\n";
-            break;
-        case 11:
-            cout << "In November there are no holidays.\n";
-            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
-            break;
-        case 12:
-            cout << "In December there is:\n";
-            cout << "- Constitution Day, 8 December\n";
-            break;
-        default:
-            cout << "Invalid month number.\n";
-    };
-
+    
 
     return 0;
     
