@@ -70,25 +70,6 @@ int main(){
 
     cout << "PROBLEM 6\n";
 
-    int a,b,c;
-    cin>>a>>b>>c;
-    int desc=pow(b,2)-4*a*c;
-    int x1, x2;
-    x1=0;
-    x2=0;
-    if (desc<0){
-        cout<<"There are no solutions for the question!!!"<<endl;
-    } else if (desc==0){
-        x1=((-1)*b)/(2*a);
-        x2=x1;
-        cout<<"x1="<<x1<<endl;
-        cout<<"x2="<<x2<<endl;
-    } else {
-        x1=((-1)*b-sqrt(desc))/(2*a);
-        x2=((-1)*b-sqrt(desc))/(2*a);
-        cout<<"x1="<<x1<<endl;
-        cout<<"x2="<<x2<<endl;
-    };  
    
     cout << "PROBLEM 7\n";
 
