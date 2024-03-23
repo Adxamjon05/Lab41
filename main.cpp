@@ -69,24 +69,7 @@ int main(){
     };
 
     cout << "PROBLEM 6\n";
-    float a1, b1, c1 ;
-    cin >> a1 ;
-    cin >> b1 ;
-    cin >> c1 ;
-    float descrimin = sqrt( b1*b1 - 4* a1* c1) / 2*a ;
-    if ( descrimin > 0) {
-        float x1 = (-b1+ descrimin) / 2*a1 ;
-        float x2 = ( -b1-descrimin) / 2*a1 ;
-        cout << " x1 is equal to" << x1 << endl ;
-        cout << " x2 is equal to" << x2 << end;
-    } else {
-        if ( descrimin == 0) {
-            float x1 = (-b1/2*a) ;
-            float x2 = ( -b1/2*a) ;
-            cout << " x1 is equal to" << x1 << endl ;
-            cout << " x2 is equal to" << x2 << endl ;
-        };
-    };
+  
    
     cout << "PROBLEM 7\n";
 
@@ -397,31 +380,58 @@ int main(){
 
     int month=0;
     cin>>month;
-    switch(month%12){
+    switch(month){
         case 1:
-            cout<<"In January there is:\n -Defenders of the Motherland Day, 14 January"<<endl;
+            cout << "In January there is:\n";
+            cout << "- New Year's Day, 1 January\n";
+            break;
+        case 2:
+            cout << "In February, April, June, July, August, November there are no holidays.\n";
+            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n"
             break;
         case 3:
-            cout<<"In March there is: \n-International Women's Day, 8 March \n-Navruz, 21 March"<<endl;
+            cout << "In March there is:\n";
+            cout << "- International Women's Day, 8 March\n";
+            cout << "- Navruz, 21 March\n";
+            break;
+        case 4:
+            cout << "In April, June, July, August, November there are no holidays.\n";
+            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
             break;
         case 5:
-            cout<<"In May there is: \n-Memorial Day, 9 May"<<endl;
+            cout << "In May there is:\n";
+            cout << "- Remembrance Day, 9 May\n";
+            break;
+        case 6:
+            cout << "In June, July, August, November there are no holidays.\n";
+            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
+            break;
+        case 7:
+            cout << "In July, August, November there are no holidays.\n";
+            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
+            break;
+        case 8:
+            cout << "In August, November there are no holidays.\n";
+            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
             break;
         case 9:
-            cout<<"In September there is: \n-Independence Day, 1 September"<<endl;
+            cout << "In September there is:\n";
+            cout << "- Independence Day, 1 September\n";
             break;
         case 10:
-            cout<<"In October there is: \n-Teachers' Day, 1 October"<<endl;
+            cout << "In October there is:\n";
+            cout << "- Teachers' Day, 1 October\n";
             break;
         case 11:
-            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
+            cout << "In November there are no holidays.\n";
+            cout << "There are Ramadan Hayit and Kurban Hayit but their dates change.\n";
             break;
-        case 0:
-            cout<<"In December there is: \n-Constitution Day, 8 December"<<endl;
+        case 12:
+            cout << "In December there is:\n";
+            cout << "- Constitution Day, 8 December\n";
             break;
         default:
-            cout<<"In February, April, June, July, August, November there is no holidays. There are Ramadan Hayit and Kurban Hayit but their dates change."<<endl;
-            break;
+            cout << "Invalid month number.\n";
     };
 
     
