@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
     cout << "PROBLEM 1\n";
-    int x1=0;
-    cin>>x1;
-    if (x1<0){
+    int xn=0;
+    cin>>xn;
+    if (xn<0){
         cout<<"Negative";
     } else{
         cout<<"Positive";
@@ -15,15 +15,15 @@ int main(){
 
     cout << "PROBLEM 2\n";
 
-    int x2=0;
+    int xm=0;
     int rem=0;
-    cin>>x2;
-    rem=x2%2;
-    if (x2>0 && rem==0){
+    cin>>xm;
+    rem=xm%2;
+    if (xm>0 && rem==0){
         cout<<"The number is positive and even";
-    } else if(x2>0&&rem!=0){
+    } else if(xm>0&&rem!=0){
         cout<<"The number is positive and odd";
-    } else if(x2<0&&rem==0){
+    } else if(xm<0&&rem==0){
         cout <<"The number is negative and even";
     }
     else{
@@ -67,7 +67,26 @@ int main(){
     }else{
         cout<<year5<<" is not a leap year"<<endl;
     };
-    
+
+    cout << "PROBLEM 6\n";
+    float a1, b1, c1 ;
+    cin >> a1 ;
+    cin >> b1 ;
+    cin >> c1 ;
+    float descrimin = sqrt( b1*b1 - 4* a1* c1) / 2*a ;
+    if ( descrimin > 0) {
+        float x1 = (-b1+ descrimin) / 2*a1 ;
+        float x2 = ( -b1-descrimin) / 2*a1 ;
+        cout << " x1 is equal to" << x1 << endl ;
+        cout << " x2 is equal to" << x2 << end;
+    } else {
+        if ( descrimin == 0) {
+            float x1 = (-b1/2*a) ;
+            float x2 = ( -b1/2*a) ;
+            cout << " x1 is equal to" << x1 << endl ;
+            cout << " x2 is equal to" << x2 << endl ;
+        };
+    };
    
     cout << "PROBLEM 7\n";
 
