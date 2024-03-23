@@ -68,32 +68,7 @@ int main(){
         cout<<year5<<" is not a leap year"<<endl;
     };
     
-    cout << "PROBLEM 6\n";
-    float a1, b1, c1 ;
-    cin >> a1 ;
-    cin >> b1 ;
-    cin >> c1 ;
-    float descrimin = sqrt( b1*b1 - 4* a1* c1) / 2*a ;
-    if ( descrimin > 0) {
-        float x1 = (-b1+ descrimin) / 2*a1 ;
-        float x2 = ( -b1-descrimin) / 2*a1 ;
-        cout << " x1 is equal to" << x1 << endl ;
-        cout << " x2 is equal to" << x2 << endl ;
-    }
-    else {
-        if ( descrimin == 0) {
-        float x1 = (-b1/2*a) ;
-        float x2 = ( -b1/2*a) ;
-        cout << " x1 is equal to" << x1 << endl ;
-        cout << " x2 is equal to" << x2 << endl ;
-        }
-    }
-
-    
-
-
-
-    
+   
     cout << "PROBLEM 7\n";
 
     double side1=0;
